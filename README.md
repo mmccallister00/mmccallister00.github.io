@@ -1,6 +1,6 @@
 ## Welcome to the GitHub Page for Mike McCallister
 
-[My _Hello World_ Expample](https://github.com/mmccallister00/hello-world)
+[My _Hello World_ Example](https://github.com/mmccallister00/hello-world)
 
 You can use the [editor on GitHub](https://github.com/mmccallister00/mmccallister00.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
