@@ -1,34 +1,16 @@
-## Welcome to the GitHub Page for Mike McCallister
+### _*Code Samples*_
 
-[My _Hello World_ Example](https://github.com/mmccallister00/hello-world)
-
-You can use the [editor on GitHub](https://github.com/mmccallister00/mmccallister00.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```Java
+/* My Java sample using JUnit and Selenium WebDriver coming soon */
+WebDriver driver = new ChromeDriver();
+driver.get("https://mmccallister00.github.io/");
+driver.quit();
+...
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+[A _Hello World_ Example](https://github.com/mmccallister00/hello-world)
+
+
 
 ### Jekyll Themes
 
