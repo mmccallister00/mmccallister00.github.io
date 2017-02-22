@@ -1,4 +1,4 @@
-### _*Code Samples*_
+### _**Code Samples**_
 
 ```Java
 /* My Java sample using JUnit and Selenium WebDriver coming soon */
