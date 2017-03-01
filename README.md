@@ -29,7 +29,7 @@ public class JobSearchUsingGoogleTest {
 ...
 ```
 
-[Java and Selenium WebDriver Sample code](https://github.com/mmccallister00/jobsearchtest/src/test/java/com/JobSearch/selenium/jobsearchtest/)
+[Java and Selenium WebDriver testing sample](https://github.com/mmccallister00/jobsearchtest)
 
 
 
