@@ -15,7 +15,7 @@ public class JobSearchUsingGoogleTest {
 		 
 	@Parameters
 	public static Collection<Object[] > data(){
-		Object[][] data = new Object[][] {{"Indeed"}}, {"Zip"}}, {"fakesite"}};
+		Object[][] data = new Object[][] {{"Indeed"}}, {{"Zip"}}, {{"fakesite"}};
 		return Arrays.asList(data);
 	}
   
