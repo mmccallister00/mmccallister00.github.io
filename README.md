@@ -1,14 +1,35 @@
-### _**Code Samples**_
+### _**Java and Selenium Samples Below**_
 
 ```Java
-/* My Java sample using JUnit and Selenium WebDriver coming soon */
-WebDriver driver = new ChromeDriver();
-driver.get("https://mmccallister00.github.io/");
-driver.quit();
+@RunWith(Parameterized.class)
+public class JobSearchUsingGoogleTest {
+	private static String baseUrl = "http://www.google.com";
+	private String preferredJobSearchSite;
+	private String jobTitle = "Software Tester";
+	private static WebDriver driver;
+	private static ScreenshotHelper screenshotHelper;
+	
+	public JobSearchUsingGoogleTest(String preferredJobSearchSite){
+		this.preferredJobSearchSite = preferredJobSearchSite;
+	}
+		 
+	@Parameters
+	public static Collection<Object[] > data(){
+		Object[][] data = new Object[][] {{"Indeed"}, {"Zip"}, {"fakesite"}};
+		return Arrays.asList(data);
+	}
+  
+	@Before
+	public void openBrowser() {
+	    driver = new ChromeDriver();
+	    driver.get(baseUrl);
+	    screenshotHelper = new ScreenshotHelper();
+	    searchGoogle();
+	}
 ...
 ```
 
-[A _Hello World_ Example](https://github.com/mmccallister00/hello-world)
+[Java and Selenium WebDriver Sample code](https://github.com/mmccallister00/jobsearchtest)
 
 
 
