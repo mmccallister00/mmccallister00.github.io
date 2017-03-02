@@ -1,6 +1,11 @@
-### _**Java and Selenium Samples Below**_
+[Java and Selenium WebDriver testing demo](https://github.com/mmccallister00/jobsearchtest)
+
+
+#### _**Selenium WebDriver project snippet**_
 
 ```Java
+...
+...
 @RunWith(Parameterized.class)
 public class JobSearchUsingGoogleTest {
 	private static String baseUrl = "http://www.google.com";
@@ -27,9 +32,9 @@ public class JobSearchUsingGoogleTest {
 	    searchGoogle();
 	}
 ...
+...
 ```
 
-[Java and Selenium WebDriver testing sample](https://github.com/mmccallister00/jobsearchtest)
 
 
 
